@@ -1,0 +1,189 @@
+body{
+    /* background-color: #1a1a1a !important; */
+    background: url('images/andy-falconer-dwQRixazu9I-unsplash.jpg') center top no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-color: #222222 !important;
+    font-family: 'roboto';
+}
+
+.banner{
+padding-top: 20vh;
+padding-bottom: 3rem;
+margin-bottom: 0;
+height: 90vh;
+background: url('images/banner.png') center center no-repeat;
+background-size: cover;
+background-position:  bottom;
+/* background-attachment: fixed; */
+font-family: 'roboto';
+color: white;
+justify-content: center;
+align-items: center;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 1.5rem;
+}
+.banner p{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+.button{
+    background-color: #deaa87;
+    color: #0e0e0e;
+    margin-top: 5rem;
+    /* padding: .7rem; */
+    text-decoration: none;
+    border: 2px solid #1a1a1ae9;
+    outline: solid 3px #deaa87;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+}
+.button:hover{
+    background-color: #be9173;
+    color: #0e0e0e;
+    text-decoration: none;
+}
+.myBtn{
+    background-color: #deaa87 !important;
+    color: #0e0e0e !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+.myBtn:hover{
+    background-color: #be9173 !important;
+    color: #0e0e0e !important;
+}
+.myBtnSecond{
+    background-color: #f4e3d7 !important;
+    color: #575757  ;
+    border: 2px solid #7a7a7a ;
+    border-radius: 0px !important;
+    
+}
+.myBtnSecond:hover{
+    /* background-color: #7a7a7a!important; */
+    color: #2c2c2c !important;
+    border: 2px solid #414141 ;
+}
+.inputBtn{
+    border: 2px solid #be9173 !important ;
+}
+.product-place{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coffee{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #222222dc;
+}
+.menuImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#buy{
+    height: 95vh;
+    padding: 3rem;
+    background-color: #222222dc;
+}
+
+.smallImg{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+/* .coffeeHeader{
+    position: relative;
+} */
+.buyWindow{
+    margin-top: 5rem;
+    padding: 5rem;
+    background-color: #f4e3d7;
+    border-radius: 2px;
+}
+hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #803300; /* Цвет линии для остальных браузеров */
+    background-color: #803300; /* Цвет линии для браузера Firefox и Opera */
+    /* height: 5rem; Толщина линии */
+}
+
+.inputBuyHeader{
+    margin-bottom: .5;
+    font-weight: 500;
+    /* line-height: 1.2; */
+    font-size: 1.25rem;
+    outline: none;
+    background: none !important;
+    border: none !important;
+}
+.inputBuy{
+    margin-bottom: .5;
+    outline: none;
+    background: none !important;
+    border: none !important;
+    display: flex;
+}
+/* блоки для страницы с устройствами */
+.block{
+/* background-color: #1b2210c1; #101010bd #1d1d1de4;*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* заголовок блока */
+.blockHead{
+    text-align: center;
+    font-size: 1.5rem;
+    /* padding: .5rem; */
+}
+  /* маленький блок используется в блоках на старицах устройств */
+.smBlock{
+    width: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.3;
+}
+.smBlockHeader{
+    font-weight: bold;
+}
+
+
+/* extensions */
+.card{
+    background-color: none !important;
+    border: none !important;
+
+    overflow: hidden !important; 
+    /* width: 480px; */
+}
+.card-body{
+    /* background-color: #333333; */
+    background-color: #f4e3d7;
+}
+.card-text{
+margin-bottom: .7rem;
+}
+.card-img-top{
+    /* background: none !important; */
+    /* background-color: #333333; */
+    background-color: #f4e3d7;
+}
